@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- BARRA DE PROGRESO -->
+    <div class="progress" id="progress"><span></span></div>
+
+    <!-- FONDO AMBIENTE -->
+    <div class="ambient">
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+        <div class="light-trail trail-a"></div>
+        <div class="light-trail trail-b"></div>
+        <span class="spark spark-1"></span>
+        <span class="spark spark-2"></span>
+        <span class="spark spark-3"></span>
+        <span class="spark spark-4"></span>
+    </div>
+
+    <!-- SECCIÓN HERO -->
+    <header class="hero">
+        <div class="hero-image" data-hero="70,53,82,86">
+            <img src="fotos/70.jpg" alt="Portada" class="active">
+            <div class="hero-shade"></div>
+        </div>
+        <div class="hero-copy">
+            <div class="ten"><span>10 AÑOS</span></div>
+            <h1>Keren</h1>
+            <p class="date">23 DE SETIEMBRE</p>
+            <a href="#capitulo-1" class="begin" aria-label="Empezar"><span></span></a>
+        </div>
+    </header>
+
+    <!-- INTRODUCCIÓN -->
+    <section class="intro reveal">
+        <div class="intro-text">
+            <h2>Parece que fue ayer<em>cuando aprendiste a caminar</em></h2>
+            <p>y hoy celebramos una década llena de risas, ocurrencias y momentos inolvidables. Gracias por llenarnos de alegría todos los días. ¡Disfruta de tu día al máximo!</p>
+        </div>
+    </section>
+
+    <!-- CAPÍTULOS / GALERÍAS AGRUPADAS CON MARIPOSAS -->
+    <main>
+        <!-- CAPÍTULO 1 -->
+        <section class="chapter reveal" id="capitulo-1">
+            <div class="luminous-butterfly" aria-hidden="true">
+                <svg viewBox="0 0 60 50">
+                    <g class="butterfly-wings">
+                        <path class="wing wing-left-upper" d="M30 25 C20 5, 2 2, 2 15 C2 24, 15 28, 30 25 Z" />
+                        <path class="wing wing-left-lower" d="M30 26 C15 28, 4 35, 8 43 C12 48, 24 38, 30 26 Z" />
+                        <path class="wing wing-right-upper" d="M30 25 C40 5, 58 2, 58 15 C58 24, 45 28, 30 25 Z" />
+                        <path class="wing wing-right-lower" d="M30 26 C45 28, 56 35, 52 43 C48 48, 36 38, 30 26 Z" />
+                    </g>
+                    <path class="butterfly-body" d="M29 13 C28 18, 28 32, 29 38 C30 38, 31 32, 31 13 Z" />
+                    <circle class="butterfly-head" cx="30" cy="11" r="2" />
+                    <path class="antenna" d="M29 10 C26 5, 22 4, 19 2" />
+                    <path class="antenna" d="M31 10 C34 5, 38 4, 41 2" />
+                </svg>
+                <span class="butterfly-particle particle-1"></span>
+                <span class="butterfly-particle particle-2"></span>
+                <span class="butterfly-particle particle-3"></span>
+                <span class="butterfly-particle particle-4"></span>
+                <span class="butterfly-particle particle-5"></span>
+            </div>
+
+            <div class="chapter-head">
+                <span>01</span>
+                <div>
+                    <p>PAPÁ, MAMÁ Y AMIGOS</p>
+                    <h2>Abrazos, regalos y buenos deseos</h2>
+                </div>
+            </div>
+            <div class="auto-gallery" data-start="1" data-end="16" data-featured="2"></div>
+        </section>
+
+        <!-- CAPÍTULO 2 -->
+        <section class="chapter reveal" id="capitulo-2">
+            <div class="luminous-butterfly" aria-hidden="true">
+                <svg viewBox="0 0 60 50">
+                    <g class="butterfly-wings">
+                        <path class="wing wing-left-upper" d="M30 25 C20 5, 2 2, 2 15 C2 24, 15 28, 30 25 Z" />
+                        <path class="wing wing-left-lower" d="M30 26 C15 28, 4 35, 8 43 C12 48, 24 38, 30 26 Z" />
+                        <path class="wing wing-right-upper" d="M30 25 C40 5, 58 2, 58 15 C58 24, 45 28, 30 25 Z" />
+                        <path class="wing wing-right-lower" d="M30 26 C45 28, 56 35, 52 43 C48 48, 36 38, 30 26 Z" />
+                    </g>
+                    <path class="butterfly-body" d="M29 13 C28 18, 28 32, 29 38 C30 38, 31 32, 31 13 Z" />
+                    <circle class="butterfly-head" cx="30" cy="11" r="2" />
+                    <path class="antenna" d="M29 10 C26 5, 22 4, 19 2" />
+                    <path class="antenna" d="M31 10 C34 5, 38 4, 41 2" />
+                </svg>
+                <span class="butterfly-particle particle-1"></span>
+                <span class="butterfly-particle particle-2"></span>
+                <span class="butterfly-particle particle-3"></span>
+                <span class="butterfly-particle particle-4"></span>
+                <span class="butterfly-particle particle-5"></span>
+            </div>
+
+            <div class="chapter-head">
+                <span>02</span>
+                <div>
+                    <p>JUEGOS Y MUCHA ENERGÍA</p>
+                    <h2>¡A jugar y reír sin parar!</h2>
+                </div>
+            </div>
+            <div class="auto-gallery" data-start="17" data-end="66" data-featured="2"></div>
+        </section>
+
+        <!-- CAPÍTULO 3 -->
+        <section class="chapter reveal" id="capitulo-3">
+            <div class="luminous-butterfly" aria-hidden="true">
+                <svg viewBox="0 0 60 50">
+                    <g class="butterfly-wings">
+                        <path class="wing wing-left-upper" d="M30 25 C20 5, 2 2, 2 15 C2 24, 15 28, 30 25 Z" />
+                        <path class="wing wing-left-lower" d="M30 26 C15 28, 4 35, 8 43 C12 48, 24 38, 30 26 Z" />
+                        <path class="wing wing-right-upper" d="M30 25 C40 5, 58 2, 58 15 C58 24, 45 28, 30 25 Z" />
+                        <path class="wing wing-right-lower" d="M30 26 C45 28, 56 35, 52 43 C48 48, 36 38, 30 26 Z" />
+                    </g>
+                    <path class="butterfly-body" d="M29 13 C28 18, 28 32, 29 38 C30 38, 31 32, 31 13 Z" />
+                    <circle class="butterfly-head" cx="30" cy="11" r="2" />
+                    <path class="antenna" d="M29 10 C26 5, 22 4, 19 2" />
+                    <path class="antenna" d="M31 10 C34 5, 38 4, 41 2" />
+                </svg>
+                <span class="butterfly-particle particle-1"></span>
+                <span class="butterfly-particle particle-2"></span>
+                <span class="butterfly-particle particle-3"></span>
+                <span class="butterfly-particle particle-4"></span>
+                <span class="butterfly-particle particle-5"></span>
+            </div>
+
+            <div class="chapter-head">
+                <span>03</span>
+                <div>
+                    <p>UNA CANCIÓN,10 VELITAS Y MILES DE RECUERDOS, </p>
+                    <h2>Pidamos un Deseo</h2>
+                </div>
+            </div>
+            <div class="auto-gallery" data-start="67" data-end="111" data-featured="2"></div>
+        </section>
+    </main>
+
+    <!-- CIERRE -->
+    <footer class="closing reveal">
+        <h2>Hasta el próximo año</h2>
+	<p>Gracias a todos por estar presentes, por los regalos, las risas y por hacer que este décimo cumpleaños sea un recuerdo inolvidable. ¡Por muchos años más de felicidad!</p>
+        <a href="#">Volver arriba</a>
+    </footer>
+
+    <!-- VISOR / LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="close" aria-label="Cerrar">&times;</button>
+        <div class="stage">
+            <img class="viewer-image current" id="viewer" src="" alt="">
+            <img class="viewer-image incoming" id="viewerNext" src="" alt="">
+        </div>
+        <button class="prev" aria-label="Anterior"></button>
+        <button class="next" aria-label="Siguiente"></button>
+        <div class="counter" id="counter">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <!-- Script principal -->
+    <script src="script.js"></script>
+</body>
+</html>
